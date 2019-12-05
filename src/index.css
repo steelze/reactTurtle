@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.mx-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.my-half {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.my-1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.box {
+  border: 1px solid #eee;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.box:hover {
+  cursor: pointer;
+}
+
+.box.selected {
+  background: #2979ff;
+  color: #fff;
+}
+
+.box.incorrect {
+  background: #ef5350;
+  color: #fff;
+}
